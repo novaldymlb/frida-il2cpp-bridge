@@ -26,6 +26,7 @@
     "dist", "cli"
   ],
   "scripts": {
+    "build": "tsc",
     "prepare": "make dist",
     "watch": "npm exec tspc -- --watch",
     "test": "make test"
